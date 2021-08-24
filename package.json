@@ -2,11 +2,33 @@
   "name": "naytive-core",
   "version": "0.0.1",
   "description": "Naytive is a JavaScript SDK for crafting beautiful, fast and interactive native mobile applications with JavaScript.",
-  "main": "index.js",
+  "main": "naytive",
+  "bin": {
+    "naytive": "./bin/naytive"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Michael Darko <mickdd22@gmail.com>",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darko-mychi/react-js-modal.git"
+  },
+  "keywords": [
+    "modal",
+    "typescript",
+    "reactjs"
+  ],
+  "author": "Michael Darko-Duodu <mychi.darko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darko-mychi/react-js-modal/issues"
+  },
+  "homepage": "https://github.com/darko-mychi/react-js-modal#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.2",
+    "react": "^17.0.1",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.1.0",
+    "typescript": "^4.1.5"
+  }
 }
