@@ -1,0 +1,12 @@
+{
+  "name": "naytive-core",
+  "version": "0.0.1",
+  "description": "Naytive is a JavaScript SDK for crafting beautiful, fast and interactive native mobile applications with JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Michael Darko <mickdd22@gmail.com>",
+  "license": "MIT"
+}
